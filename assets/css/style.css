@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  background: #f0c9ea;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  max-width: 650px;
+  height: 70vh;
+  background-color: #ffff;
+  margin: auto;
+  margin-top:5% ;
+  box-shadow: 10px 9px 24px 3px rgba(64,61,61,0.69); 
+  border-radius: 5%;
+}
+
+.fields{
+  margin: 5% 10%;
+}
+.pink-font{
+  color: #E8258E;
+}
+#field_title{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(26, 26, 26);
+  margin-bottom: 5%;
+  margin-top: 20px;
+}
+
+.fields_textboxs{
+  height: 100px;
+  
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-around;
+}
+
+.fields_textboxs > input{
+  text-align: center;
+  height: 40px;
+  border: 1px solid rgb(26, 26, 26);
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.fields_remember{
+  margin: bottom 20px; ;
+}
+
+#btnlogin{
+  width: 100%;
+  border: none;
+  background-color: #E8258E;
+  color: #f0c9ea;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fields_buttons{
+margin-bottom: 20px;
+}
+.fields_recovery > a, .fields_create > a{
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+
+}
+
+.fields_recovery{
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20%;
+} 
+
+.fields_create{
+  margin-top: 10%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.logo{
+justify-content: center;
+display: flex;
+margin-top: 20px;
+}
+
+.logo > img{
+height: 80px;
+}
+
+@media screen and (min-width:650px){
+.container{
+  margin-top: 20px;
+}  
+}
+
